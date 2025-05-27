@@ -20,7 +20,7 @@ const DisplayPage = () => {
     const [Loading, setLoading] = useState(false);
     const navigate = useNavigate();
 
-
+    // Fetch approved images from Firestore
 
     useEffect(() => {
         const fetchImages = async () => {
